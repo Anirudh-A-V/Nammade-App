@@ -5,7 +5,7 @@
 - KTU ID/Admission No.  : String/Number  (Optional) (It will serve as an Id)
 - Department : String
 - Batch : Number (Pass out year)
-- password : String/Hash
+- ~password : String/Hash~
 - Profile Pic : String (URL)
 - Registered Events : Array of Events ( referencing Events Collection )
 
@@ -16,7 +16,7 @@
 - Club Administrator : Id referencing that person (Admin from the Club)
 - Contact : Number
 - email : String (club email for logging in)
-- password : String
+- ~password : String~
 
 ## Events
 - Name : String
